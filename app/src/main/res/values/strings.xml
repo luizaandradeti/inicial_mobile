@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">carteira</string>
+    <string name="texto_alterado">Texto alterado</string>
+    <string name="user">Usuário</string>
+    <string name="texto">Texto</string>
+    <string name="validation_name">Olá!</string>
 </resources>
