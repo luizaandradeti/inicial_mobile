@@ -3,16 +3,13 @@ package com.seguradora.carteira
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.seguradora.carteira.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
-    // TODO: lateinit
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +21,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnFrase.setOnClickListener(this)
 
     }
-
     override fun onClick(visualizar: View?) {
         val text = "Ok!"
         val duration = Toast.LENGTH_SHORT
@@ -33,6 +29,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val text2 = "Não ok!"
         val duration2 = Toast.LENGTH_SHORT
         val toast2 = Toast.makeText(this, text2, duration2) // in Activity
+
+
         if (visualizar != null) {
             return if (visualizar.id == R.id.btn_frase) {
                 toast2.show()
