@@ -4,4 +4,7 @@
     <string name="user">Usuário</string>
     <string name="texto">Texto</string>
     <string name="validation_name">Olá!</string>
+    <string name="name">Inclua seu nome\n</string>
+    <string name="post">salvar</string>
+    <string name="start">Inicio\n</string>
 </resources>
